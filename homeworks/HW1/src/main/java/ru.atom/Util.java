@@ -41,7 +41,7 @@ public class Util {
         int sum = 0;
 
         for (int i = 0; i < values.length; i++) {
-            sum += values[0];
+            sum += values[i];
         }
 
         return sum;
